@@ -26,13 +26,13 @@
   <remove-project optional="true" path="device/xiaomi/sm8450-common" />
   <project name="android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="cupid-development" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/cupid" />
-  <project name="android_device_xiaomi_cupid" path="device/xiaomi/cupid" remote="cupid-development" revision="lineage-24.0-6.6" />
+  <project name="android_device_xiaomi_cupid" path="device/xiaomi/cupid" remote="dopaemon" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/mayfly" />
   <project name="android_device_xiaomi_mayfly" path="device/xiaomi/mayfly" remote="dopaemon" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/unicorn" />
-  <project name="android_device_xiaomi_unicorn" path="device/xiaomi/unicorn" remote="cupid-development" revision="lineage-24.0-6.6" />
+  <project name="android_device_xiaomi_unicorn" path="device/xiaomi/unicorn" remote="dopaemon" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/zeus" />
-  <project name="android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="cupid-development" revision="lineage-24.0-6.6" />
+  <project name="android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="dopaemon" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="vendor/xiaomi/sm8450-common" />
   <project name="proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/sm8450-common" remote="cupid-development" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="vendor/xiaomi/cupid" />
