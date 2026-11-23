@@ -45,6 +45,7 @@ breakfast $DEVICE
 ```
 
 ### Build Stared:
+#### With `log.txt`:
 Using `m` command:
 ```
 m bacon -j$(nproc --all) | tee log.txt
@@ -58,7 +59,7 @@ Using `brunch` command:
 brunch $DEVICE | tee log.txt
 ```
 
-### Without `log.txt`:
+#### Without `log.txt`:
 Using `m` command:
 ```
 m bacon -j$(nproc --all)
