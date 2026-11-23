@@ -46,7 +46,7 @@
   <remove-project optional="true" path="hardware/qcom-caf/sm8450-6.6/display/hal" />
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8450-6.6/display/hal" remote="cupid-development" revision="lineage-24.0-caf-sm8450-6.6" />
   <remove-project optional="true" path="hardware/qcom-caf/sm8450-6.6/audio/primary-hal" />
-  <project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8450-6.6/audio/primary-hal" remote="cupid-development" revision="lineage-24.0-6.6" />
+  <project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8450-6.6/audio/primary-hal" remote="dopaemon" revision="lineage-24.0-6.6" />
 
   <!-- google/pixel apps -->
   <project path="vendor/pixel/extract-utils" name="android_vendor_pixel_extract-utils" remote="pixelos-gitlab" revision="seventeen" >
