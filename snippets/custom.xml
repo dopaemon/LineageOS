@@ -25,6 +25,7 @@
   <project name="android_kernel_xiaomi_sm8450-build-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-build" remote="dopaemon" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/sm8450-common" />
   <project name="android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="dopaemon" revision="lineage-24.0-6.6" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" />
   <project name="hardware_dolby" path="hardware/dolby" remote="dopaemon" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/cupid" />
   <project name="android_device_xiaomi_cupid" path="device/xiaomi/cupid" remote="dopaemon" revision="lineage-24.0-6.6" />
