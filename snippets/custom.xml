@@ -4,6 +4,9 @@
   <remote  name="cupid-development"
            fetch="https://github.com/cupid-development" />
 
+  <remote  name="dopaemon"
+           fetch="https://github.com/dopaemon" />
+
   <remote  name="pixelos-github"
            fetch="https://github.com/PixelOS-AOSP" />
 
@@ -14,7 +17,7 @@
   <project name="android_kernel_xiaomi_sm8450-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-kernel" remote="cupid-development" revision="lineage-24.0-6.6" />
   <project name="android_kernel_xiaomi_sm8450-devicetrees-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-devicetrees" remote="cupid-development" revision="lineage-24.0-6.6" />
   <project name="android_kernel_xiaomi_sm8450-modules-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-modules" remote="cupid-development" revision="lineage-24.0-6.6" />
-  <project name="android_kernel_xiaomi_sm8450-build-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-build" remote="cupid-development" revision="lineage-24.0-6.6" />
+  <project name="android_kernel_xiaomi_sm8450-build-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-build" remote="dopaemon" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/sm8450-common" />
   <project name="android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="cupid-development" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/cupid" />
