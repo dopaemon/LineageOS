@@ -35,9 +35,13 @@ source build/envsetup.sh
 ```
 export DEVICE="mayfly"
 ```
-Using `lunch` command:
+Using `lunch` command for `userdebug`:
 ```
 lunch lineage_$DEVICE-cp2a-userdebug
+```
+Using `lunch` command for `user`:
+```
+lunch lineage_$DEVICE-cp2a-user
 ```
 Using `breakfast` command:
 ```
