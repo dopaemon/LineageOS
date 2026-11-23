@@ -23,7 +23,7 @@
   <remove-project optional="true" path="device/xiaomi/cupid" />
   <project name="android_device_xiaomi_cupid" path="device/xiaomi/cupid" remote="cupid-development" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/mayfly" />
-  <project name="android_device_xiaomi_mayfly" path="device/xiaomi/mayfly" remote="cupid-development" revision="lineage-24.0-6.6" />
+  <project name="android_device_xiaomi_mayfly" path="device/xiaomi/mayfly" remote="dopaemon" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/unicorn" />
   <project name="android_device_xiaomi_unicorn" path="device/xiaomi/unicorn" remote="cupid-development" revision="lineage-24.0-6.6" />
   <remove-project optional="true" path="device/xiaomi/zeus" />
