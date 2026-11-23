@@ -1103,5 +1103,6 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/kernel-6.6.xml" />
   <include name="snippets/custom.xml" />
 </manifest>
