@@ -13,6 +13,11 @@
   <remote  name="pixelos-gitlab"
            fetch="https://gitlab.com/PixelOS-AOSP" />
 
+  <!-- Keep the public generator outside the active signing-key directory. -->
+  <project path="vendor/lineage-priv/keys-template" name="ItsVixano/android_vendor_lineage-priv_keys" remote="github" revision="bede1039797644b7e6965746021687846d617782" upstream="master" clone-depth="1">
+    <copyfile src=".gitignore" dest="vendor/lineage-priv/keys-template/.find-ignore" />
+  </project>
+
   <!-- Cupid Development -->
   <project name="android_kernel_xiaomi_sm8450-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-kernel" remote="cupid-development" revision="lineage-24.0-6.6" />
   <project name="android_kernel_xiaomi_sm8450-devicetrees-6.6" path="kernel/platform/kernel-6.6/vendor/xiaomi/sm8450-devicetrees" remote="cupid-development" revision="lineage-24.0-6.6" />
